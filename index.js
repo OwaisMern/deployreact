@@ -32,5 +32,5 @@ app.post('/register', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`node app listening on port ${port}`)
+    console.log(`React app listening on port ${port}`)
   })
