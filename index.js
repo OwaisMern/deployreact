@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 app.get('/check', (req, res) => {
     connection.query('SELECT * FROM user', function (error, results, fields) {
         if (error) throw error;
-        res.send(results)
+        res.json(results)
     });
 })
 
